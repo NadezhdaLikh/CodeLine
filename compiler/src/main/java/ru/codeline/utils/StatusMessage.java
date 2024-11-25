@@ -1,4 +1,4 @@
-package ru.webency.compiler.utils;
+package ru.codeline.utils;
 
 public class StatusMessage {
     public static String statusResponse(int status, boolean result) {

@@ -1,25 +1,23 @@
-package ru.webency.compiler.service;
+package ru.codeline.service;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import ru.webency.compiler.exceptions.CompilerException;
-import ru.webency.compiler.exceptions.DockerException;
-import ru.webency.compiler.model.Language;
-import ru.webency.compiler.model.Request;
-import ru.webency.compiler.model.Response;
-import ru.webency.compiler.model.Result;
-import ru.webency.compiler.utils.EntryPointFile;
-import ru.webency.compiler.utils.FileHandler;
+import ru.codeline.exceptions.CompilerException;
+import ru.codeline.exceptions.DockerException;
+import ru.codeline.model.Language;
+import ru.codeline.model.Request;
+import ru.codeline.model.Response;
+import ru.codeline.model.Result;
+import ru.codeline.utils.EntryPointFile;
+import ru.codeline.utils.FileHandler;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
-
-
 
 @Slf4j
 @Service

@@ -1,7 +1,7 @@
-package ru.webency.compiler.service;
+package ru.codeline.service;
 
 import org.springframework.web.multipart.MultipartFile;
-import ru.webency.compiler.model.Result;
+import ru.codeline.model.Result;
 
 import java.io.IOException;
 

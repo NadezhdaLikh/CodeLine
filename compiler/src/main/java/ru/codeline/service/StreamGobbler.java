@@ -1,4 +1,4 @@
-package ru.webency.compiler.service;
+package ru.codeline.service;
 
 import java.io.BufferedReader;
 import java.io.IOException;

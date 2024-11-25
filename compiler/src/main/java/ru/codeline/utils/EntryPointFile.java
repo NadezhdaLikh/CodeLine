@@ -1,10 +1,10 @@
-package ru.webency.compiler.utils;
+package ru.codeline.utils;
 
 import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
-import ru.webency.compiler.model.Language;
+import ru.codeline.model.Language;
 
 import java.io.File;
 import java.io.FileOutputStream;

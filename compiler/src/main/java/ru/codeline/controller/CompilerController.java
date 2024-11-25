@@ -1,15 +1,15 @@
-package ru.webency.compiler.controller;
+package ru.codeline.controller;
 
 import lombok.AllArgsConstructor;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import ru.webency.compiler.exceptions.CompilerException;
-import ru.webency.compiler.model.Language;
-import ru.webency.compiler.model.Request;
-import ru.webency.compiler.service.CompilerServiceInterface;
-import ru.webency.compiler.model.CompileRequestDto;
+import ru.codeline.exceptions.CompilerException;
+import ru.codeline.model.Language;
+import ru.codeline.model.Request;
+import ru.codeline.service.CompilerServiceInterface;
+import ru.codeline.model.CompileRequestDto;
 
 import java.io.IOException;
 

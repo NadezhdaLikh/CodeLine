@@ -1,11 +1,11 @@
-package ru.webency.compiler.service;
+package ru.codeline.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import ru.webency.compiler.model.Result;
-import ru.webency.compiler.utils.DockerCommandLine;
-import ru.webency.compiler.utils.StatusMessage;
+import ru.codeline.model.Result;
+import ru.codeline.utils.DockerCommandLine;
+import ru.codeline.utils.StatusMessage;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package ru.webency.compiler.model;
+package ru.codeline.model;
 
 import lombok.Getter;
 

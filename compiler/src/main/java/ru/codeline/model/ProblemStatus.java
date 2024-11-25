@@ -1,4 +1,4 @@
-package ru.webency.compiler.model;
+package ru.codeline.model;
 
 public enum ProblemStatus {
     ACCEPTED("Успешно"),
