@@ -1,0 +1,51 @@
+# Maven output folders
+/target/
+
+# IntelliJ IDEA project files
+.idea/
+/*.iml
+*.iws
+out/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Maven Wrapper files (if not needed)
+# Uncomment the next line if you don't want to include Maven Wrapper files
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# Eclipse project files (if applicable)
+/.classpath
+/.project
+/.settings/
+
+# VS Code project files (if applicable)
+/.vscode/
+
+# Java build output
+*.class
+
+# Bytecode for compiled files
+*.jar
+*.war
+*.ear
+
+# IDE indexing or metadata files
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/*
