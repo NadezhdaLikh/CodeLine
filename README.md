@@ -35,11 +35,11 @@
 
 #### ER-диаграмма (Нотация Чена)
 
-![ER-диаграмма Чена](images/ER-diagram-chen.png)
+![ER-диаграмма Чена](ER-diagram-chen.png)
 
 #### ER-диаграмма (Нотация Мартина)
 
-![ER-диаграмма Мартина](images/ER-diagram-martin.png)
+![ER-диаграмма Мартина](ER-diagram-martin.png)
 
 ## Endpoints
 
@@ -75,5 +75,5 @@
 
 ## Алгоритм работы компилятора
 
-![Алгоритм работы компилятора](images/compiler-algorithm.png)
+![Алгоритм работы компилятора](compiler-algorithm.png)
 
