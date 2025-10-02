@@ -118,7 +118,7 @@ cd CodeLine
 ### 2. Setup your database
 1. Install and start PostgreSQL.
 2. Create a database.
-3. Copy `backend/application.yml.example` → `backend/application.yml` and add the database credentials.
+3. Copy `backend/application.yml.example` → `backend/application.yml` and add all necessary credentials.
 
 ### 3. Add admin's credentials
 
