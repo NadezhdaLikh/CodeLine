@@ -1,7 +1,7 @@
 # CodeLine – educational platform for interactive learning of programming languages
 Project description is also available in Russian: [Russian version](README.ru.md).
 
-## Concept
+## Overview
 This project is a learning pet project that implements a web application combining lecture materials, practical tasks, and self-check tools, including an integrated compilation service. The goal is to automate and optimize the learning process for students studying programming.
 
 ## Teck stack
@@ -18,7 +18,7 @@ This pet project implements only the backend and compiler service.
 The application was developed using IntelliJ IDEA Community Edition.
 
 ## Functionality
-### Business Logic
+### Concept
 Teachers are course authors in the platform catalog. Courses consist of lectures. All lectures are numbered and titled to maintain chronological order. Students can take multiple courses simultaneously. Each lecture consists of sections, which are also numbered and titled.
 
 After reading a lecture, a student must complete a random set of thematic quizzes, each with 4 answer options. If a student answers incorrectly, a new set of questions is generated. Each incorrect answer adds a penalty point.
