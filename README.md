@@ -115,11 +115,17 @@ git clone https://github.com/NadezhdaLikh/CodeLine.git
 cd CodeLine
 ```
 
-### 2. Setup your database
-1. Install and start PostgreSQL.
-2. Create a database.
-3. Copy `backend/application.yml.example` → `backend/application.yml` and add all necessary credentials.
+### 2. Configure application settings
+Copy `application.yml.example` from the backend folder to `application.yml`. Update it with **your own** credentials and settings:
 
+#### Database
+  1. Install and run PostgreSQL.
+  2. Create a database.
+  3. Set your DB name, username, and password.
+
+#### SMTP server (for sending emails)
+Provide SMTP server details (host, port, username, password).
+   
 ### 3. Add admin's credentials
 
 **Before** the first run, open `backend/src/main/java/ru/codeline/configuration/AdminCredentials.java` and set the admin's name, email, and password. The admin user will be automatically created in the database on the first run.
