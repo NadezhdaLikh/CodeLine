@@ -22,15 +22,15 @@ public class AdminCredentials implements CommandLineRunner {
     @Override
     public void run(String... args) {
         User adminUser = new User();
-        adminUser.setFirstName("Nadezhda");
-        adminUser.setLastName("Likhanova");
-        adminUser.setEmail("nadyushka.likhanova2015@gmail.com");
+        adminUser.setFirstName("User");
+        adminUser.setLastName("Admin");
+        adminUser.setEmail("admin@example.com");
         userRepository.save(adminUser);
 
         Credential adminCredential = new Credential();
         adminCredential.setUser(adminUser);
 
-        String encodedPassword = passwordEncoder.encode("admin_bigboss"); // Encode password
+        String encodedPassword = passwordEncoder.encode("admin123"); // Encode password
         adminCredential.setPassword(encodedPassword);
 
         adminCredential.setRole(Role.ADMIN);
