@@ -1,14 +1,14 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/diploma
-    username: nadezhda
-    password: '0000'
+    url: jdbc:postgresql://localhost:5432/your_database_name
+    username: your_username_here
+    password: your_password_here
     driver-class-name: org.postgresql.Driver
   mail:
     host: smtp.gmail.com
     port: 465
-    username: nadyushka.likhanova2015@gmail.com
-    password: mmxahpilzudcmmdj
+    username: your_email_here
+    password: your_password_here
     properties:
       mail:
         smtp:
