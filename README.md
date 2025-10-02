@@ -56,7 +56,7 @@ Registration differs by role:
 + _Administrator_ does not need to register.
 
 ## Database description
-The app uses a relational database model. The logical model of the database is shown below using Martin’s ER notation.
+The app uses a relational database model. The logical model of the database is shown below using ERD (Martin’s notation).
 
 ![Martin ER Diagram](ER-diagram-martin.png)
 
